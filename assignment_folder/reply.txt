@@ -1,0 +1,67 @@
+1. Semantic HTML:
+    Firstly, semantic elements provide contextual information to screen readers and other       assistive technologies, making it easier for users with disabilities to navigate and understand the content. For example, a <nav> element indicates a navigation section, In my CV I've used nav section for putting up social-media links.
+
+Secondly, search engines use the structure and meaning of web pages to better understand and index their content. By using semantic elements, you help search engines to determine the relevance and importance of different parts of a web page, which can improve its search engine ranking.
+
+
+2. List Elements:
+    <ol> (ordered list) displays a list with numbers, letters, or Roman numerals, automatically assigned to each item. This type of list implies a sequence or order of importance.
+<ul> (unordered list) displays a list with bullet points or other chosen markers, which don't follow a particular sequence or order.
+
+In CV I've used <ol> to list out the language skills whereas, <ul> for listing work experience details.
+
+
+3. Link Attributes:
+    The href attribute in the <a> tag (short for 'hypertext reference') is used to specify the destination URL (Uniform Resource Locator) of a hyperlink. When a user clicks on an <a> element with a valid href attribute, the web browser navigates to the specified resource.
+To open a link in a new tab or window, one can use target keyword within the <a> tag.
+<a href="tmgutsav.com.np" target="_blank">link</a>
+
+
+4. Image Element:
+    The alt attribute provides a text description of the image for users who use screen readers or have slow internet connections, allowing them to understand the content better.
+In HTML, one cna use the with and height attribute to control the size of an image without using CSS.
+
+
+5. Tables:
+    I would use table to present data in a structured way, or presenting a routine or even numerical datas.
+
+<table>: This is the container element that defines the table. All other table-related elements are nested inside this tag.
+
+<tr>: Stands for "table row." This element defines a row within the table. Each <tr> can contain one or more <td> or <th> elements.
+
+<td>: Stands for "table data." This element defines a standard cell in the table, which contains the actual data. It is nested within a <tr>.
+
+<th>: Stands for "table header." This element defines a header cell, which is typically used to label rows or columns. It is also nested within a <tr> and is usually rendered in bold and centered by default.
+
+
+6. Character Entities:
+    Character entities in HTML are special codes used to represent characters that have specific meanings in HTML or that cannot be easily typed using a standard keyboard. They are also used to display characters that are reserved for HTML syntax, such as <, >, and &.
+
+NO, I haven't used any character entities. I felt that it was not necessary.
+
+
+7. HTML Validation
+    Validating your HTML is an important step in web development for reasons such as:
+    1. Cross-Browser Compatibility
+    2. Improves Accessibility
+    3. Enhances SEO
+    4. Ensures future compatibility
+    5. Improves Performance
+
+Since, the usage of CSS is limited in this assignment, the most common error I encountered was "Use CSS instead".
+
+
+8. Accessibility:
+    Two things that I did to make my CV more accessible to people with disabilities are :
+a. Use of [alt] in <img> tag to provide a detailed information on the image.
+b. Using "Poppins" font for more readability
+
+
+9. Self-Reflection:
+    The most challenging part for me in this assignment was adjusting the coordinates for <iframe> tag.
+- Nothing new.
+
+
+10. CSS:
+    I used CSS to remove the borders, and set the font-family for overall document.
+- Using CSS, I was able to place the items displayed by <iframe> tag to the right side of the document and I think it did put some visual appeal.
