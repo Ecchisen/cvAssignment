@@ -37,7 +37,7 @@ In HTML, one cna use the with and height attribute to control the size of an ima
 6. Character Entities:
     Character entities in HTML are special codes used to represent characters that have specific meanings in HTML or that cannot be easily typed using a standard keyboard. They are also used to display characters that are reserved for HTML syntax, such as <, >, and &.
 
-NO, I haven't used any character entities. I felt that it was not necessary.
+I've used it in footer section.
 
 
 7. HTML Validation
